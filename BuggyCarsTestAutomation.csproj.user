@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="Core\Hooks.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="FunctionalTests\StepDefinitions\LoginPageSteps.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="FunctionalTests\StepDefinitions\OverallRatingsPageSteps.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="FunctionalTests\StepDefinitions\PopularMakePageSteps.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="FunctionalTests\StepDefinitions\PopularModelPageSteps.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="FunctionalTests\StepDefinitions\ProfilePageSteps.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="FunctionalTests\StepDefinitions\RegistrationPageSteps.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

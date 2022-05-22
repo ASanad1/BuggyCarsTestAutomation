@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+  <configuration>
+    <theme>standard</theme>
+    <encoding>UTF-8</encoding>
+    <protocol>https</protocol>
+    <documentTitle>Buggy Cars Automation Test Results</documentTitle>
+    <chartVisibilityOnOpen>true</chartVisibilityOnOpen>
+    <reportName>Buggy Cars Automation Test Results</reportName>
+    <testViewChartLocation>bottom</testViewChartLocation>
+    <dateFormat>yyyy-MM-dd</dateFormat>
+    <timeFormat>HH:mm:ss</timeFormat>
+    <enableCategoryView>true</enableCategoryView>
+    <scripts>
+      <![CDATA[
+                $(document).ready(function() {
+                    
+                });
+            ]]>
+    </scripts>
+    <styles>
+      <![CDATA[
+                
+            ]]>
+    </styles>
+  </configuration>
+</extentreports>
+
