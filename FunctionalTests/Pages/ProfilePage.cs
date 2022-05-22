@@ -36,7 +36,6 @@ namespace BuggyCarsTestAutomation.FunctionalTests.Pages
         private IWebElement CancelBtn => _driverHelper.Driver.FindElement(By.LinkText("Cancel"));
         private IWebElement ProfileUpdateResult => _driverHelper.Driver.FindElement(By.XPath("(//div[contains(@class, 'alert-success')])[1]"));
 
-        public bool IsUserLoggedIn() => UserGreeting.Displayed && ProfileLink.Displayed && LogoutLink.Displayed;
         public void AssertUserIsLoggedIn()
         {
             Assert.Multiple(() =>
